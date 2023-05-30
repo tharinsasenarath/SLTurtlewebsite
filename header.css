@@ -1,0 +1,128 @@
+/*-----------menu bar-------------------*/
+
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar li {
+    width: 120px;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+}
+
+.active, .menu-bar li:hover{
+    background: #2bab0d;
+    border-radius:3px;
+}
+
+nav {
+    position: fixed;
+    width: calc(100% - 80px);
+    background: rgb(0,100,0);
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    top: 0;
+    z-index: 9;
+}
+
+nav .logo{
+    height: 60px;
+    margin-right: 25px;
+}
+
+nav .donate-btn {
+    background-color: #fff;
+    border-radius: 50px;
+    color: green;
+    padding: 5px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: auto;
+}
+
+#nav .donate-btn:hover {
+    opacity: 0.6;
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .menu-bar li { 
+        margin: 0px 10px;
+        padding: 0;
+        width: auto;
+        font-size: 2px;
+    }
+    .menu-bar li a {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 85px;
+    }
+    nav .donate-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    nav {
+        padding: 10px 40px 10px 40px;
+    }
+    #home .text-box h1{
+     font-size: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .menu-bar li { 
+        margin: 0;
+        padding: 0;
+        width: auto;
+        font-size: 2px;
+        min-width: 100px;
+    }
+    .menu-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    #home .text-box h1{
+        font-size: 75px;
+        margin: 100px 0 50px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-bar li { 
+    min-width: 200px;
+    }
+    nav {
+        align-items:flex-start ;
+    }
+    .menu-bar li a {
+        max-width: 200px;
+    }
+
+}
+
+
+
+
+
+
+

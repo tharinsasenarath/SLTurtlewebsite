@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+    background-image:url(Images/125.1.jpg);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+/*----------container------------------*/
+
+.container {
+    width: 90%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(43, 39, 39, 0.822);
+    font-size: 25px;
+    color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.map{
+    text-align:center;
+    background-color:rgba(43, 36, 36, 0.699);
+   
+}
+
+
+
+.kos1{
+    background-color:  rgba(43, 36, 36, 0.699);
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.kos1 h1{
+    color: black;
+}
+
+.kos2{
+     background-color:  rgb(192, 170, 96);
+     font-size: 25px;
+     text-align: center;
+}
+.list{
+    font-size: 25px;
+    text-align: justify;
+    margin: 30px 80px;
+    
+}
+
+
+.kos3{
+    background-color:  rgb(208, 160, 160);
+    text-align: center;
+    font-size: 25px;
+}
+
+.list{
+    font-size: 25px;
+    text-align: justify;
+    
+}
+
+   
+
+
+
+
+
+
+
+
+
+
