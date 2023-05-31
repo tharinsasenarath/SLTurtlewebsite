@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+   background-color: #0d7cab;
+   background-image: url(Images/95.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/*----------container------------------*/
+
+.container {
+    width: 90%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(30, 30, 30, 0.637);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.list{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 350px 40px; 
+}
+
+/*----------container1------------------*/
+
+.container1 {
+    width: 80%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:justify;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(1, 0, 0, 0.648);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+/*----------container2------------------*/
+
+.container2 {
+    width: 80%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(1, 0, 0, 0.648);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+/*----------container3------------------*/
+
+.container3 {
+    width: 80%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(1, 0, 0, 0.648);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+/*----------container4------------------*/
+
+.container4 {
+    width: 80%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(1, 0, 0, 0.648);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+/*----------container5------------------*/
+
+.container5 {
+    width: 80%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h2{
+    font-size: 50px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(1, 0, 0, 0.648);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+/*----------table----------------------*/
+.table1{
+   background-color: #a2a9b0;
+   border: 10px solid #ffffff;
+   border-radius: 10px;
+   width: 80%;
+   margin: 0 auto;
+}
+table {
+    border-collapse: collapse;
+}
+table tr td,th {
+    border: 2px solid #ffffff;
+}
+
+
+.map{
+    text-align:center;
+}
+
+@media only screen and (max-width: 992px) {
+
+.list {
+    margin: 40px 30px 50px 160px;
+}
+}

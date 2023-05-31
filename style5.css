@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+    background-image: url('images/143.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #97742e77;
+}
+
+/*----------container------------------*/
+
+.container {
+    width: 90%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(30, 30, 30, 0.726);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+
+
+.subtopic{
+    font-size: 25px;
+    transform: scale(x);
+    text-align: center;
+}
+
+.subtopic h1{
+    font-weight: bold;
+    font-size: 75PX;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffffff3e;
+}
+.subtopic p{
+    color: black;
+}
+
+.list{
+    font-size: 25px;
+    text-align: justify;
+    margin: 30px 80px;
+    color: b;
+    
+}
+
+
+/*-------------horizonal images------------*/
+
+.hikkaimages{
+    display: flex;
+    height: 25rem;
+    gap: 1rem;
+}
+
+.hikkaimages>div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.hikkaimages> div:hover{
+    flex: 5;
+}
+
+
+ 
