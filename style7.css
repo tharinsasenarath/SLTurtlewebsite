@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+  
+   background-image: url('images/97.1.jpg');
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/*----------container------------------*/
+.container {
+    width: 90%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
+}
+
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgba(2, 1, 1, 0.598);
+    padding: 30px;
+    border-radius: 20px;
+}
+#home .para_box .main_para {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.list{
+    font-size: 25px;
+    text-align: justify;
+    margin: 40px 150px 40px; 
+}
+
+
+/*-----------subtopics---------------*/
+.subtopic1{
+    background-color: #02c0fa7e;
+    font-size: 25px;
+    transform: scale(x);
+    text-align: center;
+}
+.p{
+    text-align: justify;
+}
+
+.subtopic2{
+    background-color: #d9a7787e;
+    font-size: 25px;
+    transform: scale(x);
+    text-align: center;
+    
+}
+.list{
+    font-size: 25px;
+    text-align: justify;
+    margin: 40px 150px 40px; 
+}
+
+
+
+.subtopic3{
+    background-color: #b03f367e;
+    font-size: 25px;
+    transform: scale(x);
+    text-align: center;
+}
+.subtopic3 h1{
+    color: white;
+}
+.list{
+    font-size: 25px;
+    text-align: justify;
+    margin: 40px 150px 40px; 
+}
+
+.images2{
+    text-align: center;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
